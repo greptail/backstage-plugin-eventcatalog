@@ -1,5 +1,11 @@
 # @eventcatalog/backstage-plugin-eventcatalog
 
+## 0.0.6
+
+### Patch Changes
+
+- 80ef030: chore(plugin): added styles to empty pages
+
 ## 0.0.5
 
 ### Patch Changes
