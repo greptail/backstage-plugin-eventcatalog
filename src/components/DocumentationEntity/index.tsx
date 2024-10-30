@@ -97,7 +97,7 @@ export const EventCatalogDocumentationEntityPage = ({
           EventCatalog.
         </span>
         <span style={{ display: 'block' }}>
-          Please provide a mapping from the entity name to the EventCatalog ID
+          Please provide a <a style={{ textDecoration: "underline", color: "#fff"}} target="_blank" href="https://www.eventcatalog.dev/docs/development/plugins/backstage/api">mapping from the entity name to the EventCatalog ID </a>
           in the plugin config.
         </span>
       </div>
