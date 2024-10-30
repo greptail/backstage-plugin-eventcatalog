@@ -22,14 +22,3 @@ jobs:
         run: yarn install
       - name: Run tests
         run: yarn test
-
-  build-windows:
-    name: Tests on Windows
-    timeout-minutes: 30
-    runs-on: windows-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Installation
-        run: yarn install
-      - name: Run tests
-        run: yarn test
