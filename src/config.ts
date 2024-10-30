@@ -25,8 +25,8 @@ const toCatalogMap = (config: Config) => {
 
 export function getConfig(config: ConfigApi): EventCatalogConfig {
   const pluginConfig = config.getConfig('eventcatalog');
-  const services = pluginConfig.getConfigArray('services');
-  const apis = pluginConfig.getConfigArray('apis');
+  const services = pluginConfig.getOptionalConfigArray('services') || [];
+  const apis = pluginConfig.getOptionalConfigArray('apis') || [];
 
   return {
     URL: pluginConfig.getString('URL'),
