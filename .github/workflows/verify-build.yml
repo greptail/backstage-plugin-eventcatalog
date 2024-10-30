@@ -14,9 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
       - name: Install Yarn
         run: npm install -g yarn
       - name: Installation
         run: yarn install
+      - name: Build types
+        run: yarn tsc
       - name: Build
         run: yarn build
