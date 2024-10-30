@@ -11,7 +11,7 @@
 
 <h4>Features: Embed EventCatalog into your Backstage project, including documentation, visualizer and table of messages. </h4>
 
-[Read the Docs](https://eventcatalog.dev/) | [Edit the Docs](https://github.com/event-catalog/docs) | [View Demo](https://demo.eventcatalog.dev/docs)
+[Read the Docs]([https://eventcatalog.dev/](https://www.eventcatalog.dev/docs/development/plugins/backstage/intro)) | [View Demo](https://demo.eventcatalog.dev/docs)
 
 </div>
 
