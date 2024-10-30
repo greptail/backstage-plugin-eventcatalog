@@ -11,7 +11,7 @@ export interface Config {
      * Map of backstage services to eventcatalog resources
      * @visibility frontend
      */
-    services: {
+    services?: {
       /**
        * Map of backstage services to eventcatalog resources
        * @visibility frontend
@@ -34,7 +34,7 @@ export interface Config {
        */
       'eventcatalog-page-discovery-default-filter'?: string;
     }[];
-    apis: {
+    apis?: {
       /**
        * Map of backstage services to eventcatalog resources
        * @visibility frontend
