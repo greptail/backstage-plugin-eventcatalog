@@ -108,7 +108,8 @@ export const EventCatalogDocumentationEntityPage = ({
     `/${page}/${collection}/${eventCatalogResource.id}/${eventCatalogResource.version}?embed=true`,
     pluginConfig.URL,
   ).toString();
-
+ console.log(url);
+ console.log(pluginConfig.URL);
   if(page === 'discover') {
     const filter = eventCatalogResource.discoverFilter || eventCatalogResource.id;
     url = new URL(
@@ -116,11 +117,12 @@ export const EventCatalogDocumentationEntityPage = ({
       pluginConfig.URL,
     ).toString();
   }
-
+  console.log(url);
   return (
-    <div style={{ background: 'white', height: '100%' }}>
+     <div style={{ background: 'white', height: '100%' }}>
       <iframe title={url} src={url} width="100%" height="100%" />
     </div>
+  
   );
 };
 
